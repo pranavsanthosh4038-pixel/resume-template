@@ -6,23 +6,21 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Pranav',
+    title: 'Student',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I am an undergraduate student of Economics and Data Science with a strong interest in applying economic theory and data analysis to real-world problems. My background spans economics, finance, and quantitative methods, with experience in research, analytics, and data visualization. I focus on turning complex data and economic concepts into clear insights that support better decision-making.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
-      '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Currently pursuing Economics and Data Science, my interests center on data analytics, applied economics, and quantitative problem-solving. I build end-to-end data solutions—cleaning, analyzing, and visualizing data—to translate complex datasets into actionable insights for decision-making.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: 'Data Analyst | Economics Student | Problem Solver',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Pranav – Student',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
@@ -51,18 +49,18 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'CHRIST University',
+      degree: 'BSc Economics with Data Science',
+      year: '2025-2029',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
+      description: ['My work centers on translating economic theory into practical frameworks for understanding real-world decisions. By combining analytical tools with empirical insight, I aim to examine how individuals and institutions respond to incentives, trade-offs, and constraints.'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'MES International School',
+      degree: 'Class 12 (Commerce with Mathematics)',
+      year: '2023–2025',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['In Class XII, I concentrated on Economics, Accountancy, Business Studies, and Mathematics, developing skills in economic analysis, financial accounting, business fundamentals, and mathematical reasoning.'],
     },
   ],
 
@@ -88,18 +86,11 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Data Analyst Intern',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
-    },
-    {
-      title: 'Previous Role',
-      cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
-      time: '(MMM YYYY – MMM YYYY)',
-      desp: ['Key contribution 1', 'Key contribution 2'],
+      place: 'FLEKT by KIRIX',
+      time: '(DEC 2025 – Present)',
+      desp: ['Analyzed and transformed raw datasets to generate insights, develop dashboards, and support data-driven decision-making.'],
     },
   ],
 
@@ -148,9 +139,9 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
+    email: 'pranavsanthosh4038@gmail.com',
     linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
+    github: 'https://github.com/pranavsanthosh4038',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
     orcid: 'https://orcid.org/0000-0000-0000-0000',
   },
