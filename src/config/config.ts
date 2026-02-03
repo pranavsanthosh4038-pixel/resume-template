@@ -7,7 +7,7 @@ export const getAsset = (path: string) => {
 const siteConfig = {
   personal: {
     name: 'Pranav',
-    title: 'Student',
+    title: 'Economics with Data Science | Student',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
       'I am an undergraduate student of Economics and Data Science with a strong interest in applying economic theory and data analysis to real-world problems. My background spans economics, finance, and quantitative methods, with experience in research, analytics, and data visualization. I focus on turning complex data and economic concepts into clear insights that support better decision-making.\n' +
